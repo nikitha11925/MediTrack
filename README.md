@@ -1,2 +1,2 @@
 # MediTrack
-Medication Reminder Application using Spring Boot
+Medication Reminder Application 

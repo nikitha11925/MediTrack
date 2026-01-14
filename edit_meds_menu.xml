@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pause_button"
+        android:icon="@drawable/pause"
+        app:iconTint="?attr/colorControlNormal"
+        android:title="@string/pause_medication"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        android:onClick="onPauseResumeClick" />
+
+    <item
+        android:id="@+id/resume_button"
+        android:icon="@drawable/play"
+        app:iconTint="?attr/colorControlNormal"
+        android:title="@string/resume_medication"
+        android:visible="false"
+        app:showAsAction="ifRoom"
+        android:onClick="onPauseResumeClick" />
+
+    <item
+        android:icon="@drawable/trash"
+        app:iconTint="?attr/colorControlNormal"
+        android:title="@string/delete_medication"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        android:onClick="onDeleteMedClick" />
+</menu>
